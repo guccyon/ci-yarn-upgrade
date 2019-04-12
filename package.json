@@ -7,6 +7,7 @@
   "engines": {
     "node": ">=0.10.0"
   },
+  "private": true,
   "scripts": {
     "compile": "cross-env NODE_ENV=production babel src --out-dir lib --source-maps inline",
     "lint": "eslint src/ test/",
@@ -18,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/taichi/ci-yarn-upgrade.git"
+    "url": "git+https://github.com/guccyon/ci-yarn-upgrade.git"
   },
   "keywords": [
     "yarn",
@@ -26,7 +27,7 @@
     "npm",
     "pr"
   ],
-  "author": "taichi",
+  "author": "guccyon",
   "contributors": [
     "Michikawa Masayoshi <michikawa.masayoshi@gmail.com>",
     "tsub <t-takayama@feedforce.jp>",
